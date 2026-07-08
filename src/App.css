@@ -1,0 +1,27 @@
+.app-shell {
+  width: min(980px, calc(100% - 32px));
+  margin: 24px auto;
+  display: grid;
+  gap: 16px;
+}
+
+.app-content {
+  display: grid;
+  gap: 16px;
+}
+
+.batch-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.batch-summary h3 {
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.95rem;
+  font-weight: 500;
+}

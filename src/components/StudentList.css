@@ -1,0 +1,13 @@
+.student-list {
+  display: grid;
+  gap: 16px;
+}
+
+.student-list h2 {
+  margin: 0;
+}
+
+.student-list__items {
+  display: grid;
+  gap: 12px;
+}

@@ -1,0 +1,30 @@
+.student-card {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+}
+
+.student-card h3 {
+  margin: 0 0 10px;
+}
+
+.student-card p {
+  margin: 0 0 8px;
+  color: var(--muted);
+}
+
+.student-card__button {
+  margin-top: 8px;
+  padding: 8px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #fbfafa;
+  cursor: pointer;
+}
+
+.student-card__button:hover {
+  background: #ed0905c2;
+}
